@@ -45,8 +45,21 @@ const team = [   //array con dentro oggetti
 // console.log(team[3].nome, team[3].ruolo, team[3].foto);
 // console.log(team[4].nome, team[4].ruolo, team[4].foto);
 // console.log(team[5].nome, team[5].ruolo, team[5].foto);
+
+//recupero dal dom l'oggetto dove devo andare a immettere le informazioni
+const containerTeam = document.getElementById('team_container');
 //oppure utilizzo un for
 for (let i = 0; i < team.length; i++) {
+
+    //console log
     console.log(team[i].nome, team[i].ruolo, team[i].foto);
+
+    //
+
+
+    //utilizzo il for usato in precedenza per ciclare dentro il Dom le info del team
+    team_container.innerHTML += `${team[i].nome} ${team[i].ruolo} ${team[i].foto}<br>`;
 }
+
+
 
