@@ -17,3 +17,10 @@ Walter Gordon - Office Manager - walter-gordon-office-manager.jpg
 Angela Lopez	- Social Media Manager - angela-lopez-social-media-manager.jpg
 Scott Estrada	- Developer - scott-estrada-developer.jpg
 Barbara Ramos - Graphic Designer - barbara-ramos-graphic-designer.jpg
+
+
+1 creo l'array di oggetti
+
+2 stampo su console tutte le info degli membri del team
+
+3 recupero dal dom l'oggetto dove devo andare a immettere le informazioni
