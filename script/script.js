@@ -37,3 +37,12 @@ const team = [   //array con dentro oggetti
         foto: 'barbara-ramos-graphic-designer.jpg'
     },
 ]
+
+//stampo su console tutte le info degli membri del team
+console.log(team[0].nome, team[0].ruolo, team[0].foto);
+console.log(team[1].nome, team[1].ruolo, team[1].foto);
+console.log(team[2].nome, team[2].ruolo, team[2].foto);
+console.log(team[3].nome, team[3].ruolo, team[3].foto);
+console.log(team[4].nome, team[4].ruolo, team[4].foto);
+console.log(team[5].nome, team[5].ruolo, team[5].foto);
+
